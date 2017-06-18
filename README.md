@@ -20,6 +20,10 @@ Implementation requirements:
    should be added in a `SETUP.md` for each one.
 2. The JSON in requests and responses should be (de)serialised using JSON operators/ functions,
    and not using string templates.
+3. A `.gitignore` file appropriate for the platform/ framework combination
+   should be created if not created by default.
+4. Automated tests should be written and placed appropriately for the platform and framework.
+   Manual tests should be added to `SETUP.md`.
 
 ## Author
 
