@@ -1,0 +1,24 @@
+{
+  "name": "node_http",
+  "version": "0.0.0",
+  "description": "A NodeJs HTTP server using only the `http` internal module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bguiz/api-demos.git"
+  },
+  "keywords": [
+    "nodejs",
+    "http"
+  ],
+  "author": "bguiz",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bguiz/api-demos/issues"
+  },
+  "homepage": "https://github.com/bguiz/api-demos#readme"
+}
