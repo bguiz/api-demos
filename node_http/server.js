@@ -46,7 +46,9 @@ function handlePostHello(req, params, errback) {
 		} else {
 			errback(undefined, {
 				status: 200,
-				body,
+				body: {
+					hello: body.name,
+				},
 			});
 		}
 	});
